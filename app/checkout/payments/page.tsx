@@ -34,7 +34,7 @@ export default async function PaymentsPage({ searchParams }: { searchParams: Pro
         {/* Payment Methods Card */}
         <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
           <div className="p-8">
-            <PaymentMethods orderId={orderId} />
+            <PaymentMethods />
           </div>
 
           {/* Security Badge */}
